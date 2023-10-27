@@ -33,7 +33,7 @@ export default function Title() {
 
     return(
         <>
-            <div className="text-6xl text-main pb-4 obfuscation">
+            <div className="text-2xl text-main pb-4 obfuscation md:text-6xl">
                 ARTUR YASINSKIY
             </div>
         </>
