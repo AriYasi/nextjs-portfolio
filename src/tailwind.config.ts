@@ -11,6 +11,8 @@ const config: Config = {
             colors: {
                 'main': '#cdd6f4',
                 'sub': '#bac2de',
+                'sub2': '#a6adc8',
+                'hover': '#b4befe',
             },
             backgroundImage: {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -19,6 +21,6 @@ const config: Config = {
             },
         },
     },
-    plugins: [],
+    plugins: [require("daisyui")],
 }
 export default config
