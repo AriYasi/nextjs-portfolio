@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="flex text-main text-4xl text-center">
                         <Link href="https://www.linkedin.com/in/artur-yasinskiy/" className="pr-4 hover:text-hover transition-all duration-300 tooltip tooltip-bottom" data-tip="Linkedin"><AiFillLinkedin /></Link>
                         <Link href="https://github.com/AriYasi" className="pr-4 hover:text-hover transition-all duration-300 tooltip tooltip-bottom" data-tip="Github"><AiFillGithub /></Link>
-                        <Link href="#" className="pr-4 hover:text-hover transition-all duration-300 tooltip tooltip-bottom" data-tip="Aria#5387"><BiLogoDiscord /></Link>
+                        <Link href="javascript:void(0)" className="pr-4 hover:text-hover transition-all duration-300 tooltip tooltip-bottom" data-tip="Aria#5387"><BiLogoDiscord /></Link>
                     </div>
                 </nav>
             </div>
